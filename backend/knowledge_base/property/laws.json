@@ -1,0 +1,110 @@
+{
+  "category": "property",
+  "display_name": "Property Disputes",
+  "subcategories": [
+    "Land Encroachment",
+    "Title Dispute",
+    "Illegal Possession",
+    "Tenant-Landlord Dispute",
+    "Inheritance / Partition",
+    "Sale Agreement Dispute",
+    "Construction Dispute",
+    "Easement / Right of Way"
+  ],
+  "laws": [
+    {
+      "act": "Transfer of Property Act, 1882",
+      "section": "54",
+      "title": "Sale of Immovable Property",
+      "meaning": "Sale is a transfer of ownership in exchange for a price paid or promised. A sale of immovable property of value Rs. 100 or more can only be made by a registered instrument.",
+      "punishment": null,
+      "nature_of_offence": "Civil",
+      "keywords": ["sale", "purchase", "property sold", "sale deed", "buyer seller"]
+    },
+    {
+      "act": "Specific Relief Act, 1963",
+      "section": "6",
+      "title": "Recovery of Specific Immovable Property",
+      "meaning": "A person dispossessed of immovable property without consent may recover it by suit within 6 months from date of dispossession.",
+      "punishment": null,
+      "nature_of_offence": "Civil",
+      "keywords": ["dispossessed", "forcibly evicted", "illegally removed", "locked out of property"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "441",
+      "title": "Criminal Trespass",
+      "meaning": "Whoever enters or remains in property in possession of another with intent to commit offence, or to intimidate, insult or annoy.",
+      "punishment": "Up to 3 months imprisonment or fine up to Rs. 500 or both",
+      "nature_of_offence": "Cognizable, Bailable",
+      "keywords": ["trespass", "unauthorized entry", "entered my land", "encroachment", "broke into"]
+    },
+    {
+      "act": "Registration Act, 1908",
+      "section": "17",
+      "title": "Documents of which Registration is Compulsory",
+      "meaning": "Instruments relating to immovable property worth Rs. 100 and above must be compulsorily registered.",
+      "punishment": "Unregistered document cannot be admitted in evidence",
+      "nature_of_offence": "Civil",
+      "keywords": ["sale deed registration", "unregistered property", "property transfer"]
+    },
+    {
+      "act": "Code of Civil Procedure, 1908",
+      "section": "Order 39 Rule 1 & 2",
+      "title": "Temporary Injunction",
+      "meaning": "Courts may grant temporary injunctions to restrain a party from doing acts that would cause irreparable injury to property.",
+      "punishment": null,
+      "nature_of_offence": "Civil Remedy",
+      "keywords": ["stop construction", "injunction", "prevent sale", "urgent relief", "stay order"]
+    },
+    {
+      "act": "Hindu Succession Act, 1956",
+      "section": "8",
+      "title": "General Rules of Succession for Males",
+      "meaning": "Sets out the order of inheritance for property of a Hindu male dying intestate.",
+      "punishment": null,
+      "nature_of_offence": "Civil",
+      "keywords": ["inheritance", "succession", "family property", "ancestral property", "father died"]
+    },
+    {
+      "act": "Land Acquisition Act, 2013",
+      "section": "11",
+      "title": "Preliminary Survey and Publication of Notice",
+      "meaning": "Government must publish notice before acquiring land and pay fair compensation to land owners.",
+      "punishment": null,
+      "nature_of_offence": "Administrative/Civil",
+      "keywords": ["land acquisition", "government took land", "compensation for land", "acquired property"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Original Sale Deed / Title Deed", "type": "documentary", "importance": "critical"},
+    {"name": "Land Survey Records (Pahani / RTC / 7/12 Extract)", "type": "official", "importance": "critical"},
+    {"name": "Encumbrance Certificate", "type": "official", "importance": "high"},
+    {"name": "Property Tax Receipts", "type": "documentary", "importance": "high"},
+    {"name": "Mutation Records", "type": "official", "importance": "high"},
+    {"name": "Photographs of Disputed Property", "type": "documentary", "importance": "high"},
+    {"name": "Survey Sketch / Boundary Map", "type": "technical", "importance": "high"},
+    {"name": "Electricity / Water Connection Bills", "type": "documentary", "importance": "medium"},
+    {"name": "Possession Certificate", "type": "official", "importance": "medium"},
+    {"name": "Witness Statements from Neighbors", "type": "testimonial", "importance": "medium"},
+    {"name": "Rental Agreement (if tenancy dispute)", "type": "documentary", "importance": "high"}
+  ],
+  "questions": [
+    {"id": "pr_01", "text": "What type of property dispute is this?", "type": "dropdown", "options": ["Land Encroachment", "Title/Ownership Dispute", "Illegal Possession", "Tenant-Landlord Issue", "Inheritance/Partition", "Sale Agreement Dispute", "Construction Dispute", "Other"]},
+    {"id": "pr_02", "text": "What type of property is involved?", "type": "multiple_choice", "options": ["Agricultural Land", "Residential Plot", "Built House/Building", "Commercial Property", "Apartment/Flat"]},
+    {"id": "pr_03", "text": "Do you have registered title/sale deed in your name?", "type": "multiple_choice", "options": ["Yes, registered", "Yes, unregistered agreement", "No, inherited verbally", "Disputed/unclear"]},
+    {"id": "pr_04", "text": "How long have you been in possession of the property?", "type": "multiple_choice", "options": ["Less than 1 year", "1-5 years", "5-12 years", "More than 12 years"]},
+    {"id": "pr_05", "text": "Who is the other party in the dispute?", "type": "multiple_choice", "options": ["Neighbor", "Family member/Relative", "Tenant", "Landlord", "Developer/Builder", "Government authority", "Unknown encroacher"]},
+    {"id": "pr_06", "text": "Is the property currently physically accessible to you?", "type": "multiple_choice", "options": ["Yes, in my possession", "Partially accessible", "No, locked/barricaded", "Disputed access"]},
+    {"id": "pr_07", "text": "Has any court case been filed earlier related to this property?", "type": "multiple_choice", "options": ["Yes, pending in court", "Yes, decided in my favor", "Yes, decided against me", "No prior case"]}
+  ],
+  "recommended_actions": [
+    "Obtain certified copy of all title documents from Sub-Registrar office",
+    "Apply for updated survey sketch from Revenue / Survey Department",
+    "File complaint with Revenue Divisional Officer for encroachment",
+    "Approach civil court for Permanent Injunction or Declaration of Title",
+    "Apply for Temporary Injunction to prevent further encroachment",
+    "Issue legal notice to encroaching party demanding vacation",
+    "If tenant dispute: serve eviction notice under applicable Rent Control Act"
+  ]
+}

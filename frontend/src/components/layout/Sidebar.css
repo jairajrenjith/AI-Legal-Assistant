@@ -1,0 +1,102 @@
+.sidebar {
+  width: var(--sidebar-width);
+  min-height: 100vh;
+  background: var(--surface-sidebar);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  z-index: 100;
+  transition: width var(--transition-base);
+  overflow: hidden;
+}
+
+.sidebar--collapsed { width: 64px; }
+
+.sidebar__brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-5) var(--space-4);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  min-height: var(--header-height);
+}
+
+.sidebar__logo {
+  width: 36px; height: 36px;
+  background: var(--color-primary-600);
+  border-radius: var(--radius-md);
+  display: flex; align-items: center; justify-content: center;
+  color: white;
+  flex-shrink: 0;
+}
+
+.sidebar__brand-text { overflow: hidden; }
+.sidebar__brand-name {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  letter-spacing: -0.3px;
+}
+.sidebar__brand-sub {
+  display: block;
+  font-size: 10px;
+  color: rgba(255,255,255,0.45);
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+.sidebar__nav {
+  flex: 1;
+  padding: var(--space-4) var(--space-3);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 10px var(--space-3);
+  border-radius: var(--radius-md);
+  color: rgba(255,255,255,0.65);
+  font-size: 14px;
+  font-weight: 500;
+  transition: background var(--transition-fast), color var(--transition-fast);
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.sidebar__link:hover {
+  background: rgba(255,255,255,0.08);
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar__link--active {
+  background: rgba(255,255,255,0.12);
+  color: white;
+}
+
+.sidebar__link--active .sidebar__icon { color: var(--color-primary-400); }
+.sidebar__icon { flex-shrink: 0; }
+.sidebar__label { overflow: hidden; text-overflow: ellipsis; }
+
+.sidebar__toggle {
+  margin: var(--space-4) auto;
+  width: 32px; height: 32px;
+  background: rgba(255,255,255,0.08);
+  border-radius: var(--radius-full);
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(255,255,255,0.5);
+  transition: background var(--transition-fast), color var(--transition-fast);
+  flex-shrink: 0;
+}
+.sidebar__toggle:hover { background: rgba(255,255,255,0.15); color: white; }

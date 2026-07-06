@@ -1,0 +1,143 @@
+{
+  "category": "criminal",
+  "display_name": "Criminal Matters",
+  "subcategories": [
+    "Murder / Culpable Homicide",
+    "Assault / Grievous Hurt",
+    "Theft / Robbery / Dacoity",
+    "Sexual Offences",
+    "Kidnapping / Abduction",
+    "Cheating / Fraud",
+    "Extortion / Blackmail",
+    "Domestic Violence",
+    "Drug Offences",
+    "Other Criminal"
+  ],
+  "laws": [
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "302",
+      "title": "Punishment for Murder",
+      "meaning": "Whoever commits murder shall be punished with death or imprisonment for life and shall also be liable to fine.",
+      "punishment": "Death or life imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable, Non-compoundable",
+      "keywords": ["murder", "killed", "death", "homicide", "deceased"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "304",
+      "title": "Punishment for Culpable Homicide not amounting to Murder",
+      "meaning": "Covers cases where death is caused with the intention of causing death or bodily injury likely to cause death, but the case does not amount to murder.",
+      "punishment": "Imprisonment for life or up to 10 years with fine",
+      "nature_of_offence": "Cognizable, Non-bailable, Non-compoundable",
+      "keywords": ["culpable homicide", "rash", "negligent", "death by accident"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "307",
+      "title": "Attempt to Murder",
+      "meaning": "Whoever does any act with the intention or knowledge that if by that act he caused death he would be guilty of murder, shall be punished.",
+      "punishment": "Up to 10 years or life imprisonment if hurt is caused",
+      "nature_of_offence": "Cognizable, Non-bailable, Non-compoundable",
+      "keywords": ["attempt to murder", "tried to kill", "attacked with weapon"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "320",
+      "title": "Grievous Hurt",
+      "meaning": "Eight kinds of grievous hurt are defined including emasculation, permanent loss of sight, permanent disfigurement, fractures, etc.",
+      "punishment": "Up to 7 years with fine",
+      "nature_of_offence": "Cognizable, Bailable",
+      "keywords": ["grievous hurt", "fracture", "permanent injury", "disfigured", "serious injury"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "376",
+      "title": "Punishment for Rape",
+      "meaning": "Whoever commits rape shall be punished with rigorous imprisonment of not less than 10 years which may extend to life.",
+      "punishment": "Minimum 10 years rigorous imprisonment, may extend to life",
+      "nature_of_offence": "Cognizable, Non-bailable, Non-compoundable",
+      "keywords": ["rape", "sexual assault", "sexual offence", "molestation"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "379",
+      "title": "Punishment for Theft",
+      "meaning": "Whoever commits theft shall be punished with imprisonment up to 3 years or with fine or both.",
+      "punishment": "Up to 3 years imprisonment with fine",
+      "nature_of_offence": "Cognizable, Bailable",
+      "keywords": ["theft", "stolen", "stolen property", "pickpocket", "missing valuables"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "392",
+      "title": "Punishment for Robbery",
+      "meaning": "Robbery involves theft accompanied by force or threat of force.",
+      "punishment": "Up to 10 years rigorous imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["robbery", "snatching", "looting", "robbed", "weapon threat theft"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "420",
+      "title": "Cheating and Dishonestly Inducing Delivery of Property",
+      "meaning": "Whoever cheats and thereby dishonestly induces the person deceived to deliver any property shall be punished.",
+      "punishment": "Up to 7 years imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["cheating", "fraud", "deceived", "false promise", "took money"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "363",
+      "title": "Punishment for Kidnapping",
+      "meaning": "Whoever kidnaps any person shall be punished with imprisonment up to 7 years and fine.",
+      "punishment": "Up to 7 years imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["kidnapping", "abduction", "missing child", "taken away", "forcibly taken"]
+    },
+    {
+      "act": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "3",
+      "title": "Definition of Domestic Violence",
+      "meaning": "Acts of physical, sexual, verbal, emotional or economic abuse against a woman in a domestic relationship constitute domestic violence.",
+      "punishment": "Imprisonment up to 1 year or fine up to Rs. 20,000 or both",
+      "nature_of_offence": "Cognizable",
+      "keywords": ["domestic violence", "husband beating", "marital abuse", "wife abuse", "family violence"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "First Information Report (FIR) Copy", "type": "documentary", "importance": "critical"},
+    {"name": "Medical Examination Report / Medico-Legal Certificate", "type": "documentary", "importance": "critical"},
+    {"name": "Post-mortem Report (if death involved)", "type": "documentary", "importance": "critical"},
+    {"name": "CCTV Footage", "type": "digital", "importance": "high"},
+    {"name": "Eyewitness Statements", "type": "testimonial", "importance": "high"},
+    {"name": "Forensic Science Laboratory (FSL) Report", "type": "expert", "importance": "high"},
+    {"name": "Weapon or Physical Evidence", "type": "physical", "importance": "high"},
+    {"name": "Call Detail Records (CDR)", "type": "digital", "importance": "medium"},
+    {"name": "Photographs of Crime Scene", "type": "documentary", "importance": "high"},
+    {"name": "Panchnama / Scene of Offence Report", "type": "documentary", "importance": "high"},
+    {"name": "Fingerprint Report", "type": "expert", "importance": "medium"},
+    {"name": "Bank Transaction Records", "type": "financial", "importance": "medium"}
+  ],
+  "questions": [
+    {"id": "cr_01", "text": "What type of criminal incident occurred?", "type": "dropdown", "options": ["Murder/Death", "Assault/Bodily Harm", "Theft/Robbery", "Sexual Offence", "Kidnapping/Abduction", "Cheating/Fraud", "Domestic Violence", "Drug Offence", "Other"]},
+    {"id": "cr_02", "text": "When did the incident occur?", "type": "date"},
+    {"id": "cr_03", "text": "Where did the incident occur? (location/address)", "type": "text"},
+    {"id": "cr_04", "text": "Is the accused known to the complainant?", "type": "multiple_choice", "options": ["Yes, known personally", "Yes, by name only", "Stranger", "Unknown"]},
+    {"id": "cr_05", "text": "Was an FIR already registered?", "type": "multiple_choice", "options": ["Yes", "No", "Attempted but refused"]},
+    {"id": "cr_06", "text": "Were there any eyewitnesses?", "type": "multiple_choice", "options": ["Yes, multiple witnesses", "Yes, single witness", "No witnesses", "Uncertain"]},
+    {"id": "cr_07", "text": "Was any weapon used?", "type": "multiple_choice", "options": ["Yes, firearm", "Yes, sharp weapon", "Yes, blunt object", "No weapon", "Unknown"]},
+    {"id": "cr_08", "text": "Is the victim receiving medical treatment?", "type": "multiple_choice", "options": ["Yes, hospitalized", "Yes, outpatient", "Treatment completed", "No treatment needed", "Refused treatment"]},
+    {"id": "cr_09", "text": "Has the accused been arrested?", "type": "multiple_choice", "options": ["Yes, in custody", "Yes, granted bail", "No, absconding", "No, identity unknown"]},
+    {"id": "cr_10", "text": "Is CCTV footage available from the incident location?", "type": "multiple_choice", "options": ["Yes, obtained", "Yes, not yet obtained", "No CCTV available", "Unknown"]}
+  ],
+  "recommended_actions": [
+    "Register FIR immediately at the nearest police station",
+    "Obtain medical examination and preserve MLC certificate",
+    "Secure CCTV footage before it is overwritten",
+    "Collect and preserve physical evidence at crime scene",
+    "Record eyewitness statements promptly",
+    "Apply for victim compensation under NALSA scheme if applicable",
+    "Approach magistrate for Section 156(3) CrPC complaint if police refuse FIR"
+  ]
+}

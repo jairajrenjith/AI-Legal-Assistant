@@ -1,0 +1,46 @@
+.settings-page { display: flex; flex-direction: column; gap: var(--space-5); max-width: 700px; }
+.settings-page__header { display: flex; flex-direction: column; gap: var(--space-1); }
+.settings-page__title  { font-size: 22px; font-weight: 700; }
+.settings-page__sub    { font-size: 14px; color: var(--text-secondary); }
+.settings-page__save   { display: flex; justify-content: flex-end; margin-top: var(--space-4); }
+
+.settings-row {
+  display: flex; align-items: center;
+  justify-content: space-between; gap: var(--space-4);
+}
+.settings-row__info   { display: flex; flex-direction: column; gap: 3px; }
+.settings-row__label  { font-size: 14px; font-weight: 500; }
+.settings-row__desc   { font-size: 13px; color: var(--text-muted); }
+
+.theme-toggle-group { display: flex; gap: 0; border: 1px solid var(--surface-border); border-radius: var(--radius-md); overflow: hidden; }
+.theme-btn {
+  display: flex; align-items: center; gap: var(--space-2);
+  padding: 8px 16px; font-size: 13px; font-weight: 500;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.theme-btn:hover { background: var(--color-gray-100); color: var(--text-primary); }
+.theme-btn--active { background: var(--color-primary-700); color: white; }
+
+/* Form styles reused from NewCase */
+.form-group { display: flex; flex-direction: column; gap: var(--space-1); margin-bottom: var(--space-5); }
+.form-group:last-child { margin-bottom: 0; }
+.form-label { font-size: 13.5px; font-weight: 600; color: var(--text-primary); display: flex; align-items: center; }
+.form-hint  { font-size: 12px; color: var(--text-muted); }
+.form-input {
+  width: 100%; padding: 10px var(--space-3);
+  border: 1.5px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  background: var(--surface-card);
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+.form-input:focus { border-color: var(--color-primary-500); }
+
+.about-grid { display: flex; flex-direction: column; gap: var(--space-3); }
+.about-row  { display: flex; gap: var(--space-4); padding-bottom: var(--space-3); border-bottom: 1px solid var(--surface-border); }
+.about-row:last-child { border-bottom: none; padding-bottom: 0; }
+.about-row__key { font-size: 13px; font-weight: 600; color: var(--text-secondary); min-width: 130px; }
+.about-row__val { font-size: 13px; color: var(--text-primary); }

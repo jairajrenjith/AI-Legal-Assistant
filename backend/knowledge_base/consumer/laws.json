@@ -1,0 +1,91 @@
+{
+  "category": "consumer",
+  "display_name": "Consumer Complaints",
+  "subcategories": [
+    "Defective Product",
+    "Deficiency in Service",
+    "Unfair Trade Practice",
+    "E-Commerce Dispute",
+    "Banking / Insurance Dispute",
+    "Medical Negligence",
+    "Telecom Complaint",
+    "Real Estate (Builder-Buyer)"
+  ],
+  "laws": [
+    {
+      "act": "Consumer Protection Act, 2019",
+      "section": "2(7)",
+      "title": "Definition of Consumer",
+      "meaning": "Consumer means any person who buys goods or avails services for personal use and not for commercial resale.",
+      "punishment": null,
+      "nature_of_offence": "Civil (Consumer)",
+      "keywords": ["consumer", "customer", "buyer", "purchased goods", "availed service"]
+    },
+    {
+      "act": "Consumer Protection Act, 2019",
+      "section": "35",
+      "title": "Complaint before District Commission",
+      "meaning": "A consumer complaint can be filed before the District Consumer Disputes Redressal Commission for claims up to Rs. 1 crore.",
+      "punishment": null,
+      "nature_of_offence": "Civil Remedy",
+      "keywords": ["consumer forum", "consumer complaint", "defective product", "poor service", "refund denied"]
+    },
+    {
+      "act": "Consumer Protection Act, 2019",
+      "section": "47",
+      "title": "Jurisdiction of State Commission",
+      "meaning": "State Consumer Commission handles complaints where value of goods/services and compensation claimed exceeds Rs. 1 crore but does not exceed Rs. 10 crore.",
+      "punishment": null,
+      "nature_of_offence": "Civil Remedy",
+      "keywords": ["high value consumer complaint", "state consumer forum"]
+    },
+    {
+      "act": "Consumer Protection Act, 2019",
+      "section": "88",
+      "title": "Punishment for False/Misleading Advertisement",
+      "meaning": "Manufacturer or endorser of a false or misleading advertisement may be punished.",
+      "punishment": "Up to 2 years imprisonment and Rs. 10 lakh fine for first offence",
+      "nature_of_offence": "Criminal (Consumer)",
+      "keywords": ["false advertisement", "misleading claim", "fake product claim"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "43A",
+      "title": "Compensation for Failure to Protect Data",
+      "meaning": "A body corporate holding sensitive personal data is liable to pay compensation if it fails to protect such data.",
+      "punishment": "Compensation as determined by Adjudicating Officer",
+      "nature_of_offence": "Civil IT remedy",
+      "keywords": ["data breach", "personal data leaked", "bank data stolen", "online fraud"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Purchase Bill / Invoice / Receipt", "type": "documentary", "importance": "critical"},
+    {"name": "Product / Service Complaint Record", "type": "documentary", "importance": "critical"},
+    {"name": "Warranty / Guarantee Card", "type": "documentary", "importance": "high"},
+    {"name": "Email / WhatsApp Communication with Company", "type": "digital", "importance": "high"},
+    {"name": "Photographs of Defective Product", "type": "documentary", "importance": "high"},
+    {"name": "Expert Report on Product Defect", "type": "expert", "importance": "high"},
+    {"name": "Bank Statement Showing Payment", "type": "financial", "importance": "high"},
+    {"name": "Company's Reply / Rejection Letter", "type": "documentary", "importance": "medium"},
+    {"name": "Advertisement Copy (if misrepresentation)", "type": "documentary", "importance": "medium"},
+    {"name": "Delivery Proof / Tracking Record", "type": "digital", "importance": "medium"}
+  ],
+  "questions": [
+    {"id": "cs_01", "text": "What type of consumer complaint is this?", "type": "dropdown", "options": ["Defective Product", "Deficiency in Service", "Unfair Trade Practice", "E-Commerce Dispute", "Banking/Insurance", "Medical Negligence", "Telecom", "Real Estate/Builder", "Other"]},
+    {"id": "cs_02", "text": "What is the approximate value of the complaint (in Rs.)?", "type": "multiple_choice", "options": ["Below Rs. 1 lakh", "Rs. 1-10 lakh", "Rs. 10-50 lakh", "Rs. 50 lakh - 1 crore", "Above Rs. 1 crore"]},
+    {"id": "cs_03", "text": "When was the product purchased / service availed?", "type": "date"},
+    {"id": "cs_04", "text": "Did you make a complaint to the company / service provider?", "type": "multiple_choice", "options": ["Yes, in writing", "Yes, verbally only", "No complaint made", "Complaint ignored"]},
+    {"id": "cs_05", "text": "Has the company responded to your complaint?", "type": "multiple_choice", "options": ["Yes, resolved satisfactorily", "Yes, but unsatisfactory", "No response", "Refused to acknowledge"]},
+    {"id": "cs_06", "text": "Do you have the purchase receipt/invoice?", "type": "multiple_choice", "options": ["Yes, original", "Yes, digital copy", "No, lost", "Was not provided"]}
+  ],
+  "recommended_actions": [
+    "Send written complaint / legal notice to company before filing consumer case",
+    "File complaint at District Consumer Disputes Redressal Commission",
+    "Lodge complaint on National Consumer Helpline (1800-11-4000)",
+    "File complaint on Consumos online portal at consumos.gov.in",
+    "Contact RERA authority for real estate builder disputes",
+    "Approach Banking Ombudsman for banking service complaints",
+    "File complaint with Insurance Ombudsman for insurance disputes",
+    "Approach TRAI for telecom related complaints"
+  ]
+}

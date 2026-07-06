@@ -1,0 +1,99 @@
+{
+  "category": "labor",
+  "display_name": "Labor Disputes",
+  "subcategories": [
+    "Wrongful Termination",
+    "Wage Theft / Non-Payment",
+    "Workplace Harassment (POSH)",
+    "Provident Fund Dispute",
+    "Gratuity Dispute",
+    "Contract Labour Issue",
+    "Industrial Dispute",
+    "Occupational Safety Violation"
+  ],
+  "laws": [
+    {
+      "act": "Industrial Disputes Act, 1947",
+      "section": "25F",
+      "title": "Conditions Precedent to Retrenchment",
+      "meaning": "No workman can be retrenched unless given one month notice or pay in lieu, paid retrenchment compensation, and notified appropriate government authority.",
+      "punishment": null,
+      "nature_of_offence": "Labour Dispute",
+      "keywords": ["retrenchment", "termination", "fired", "job loss", "laid off", "dismissed"]
+    },
+    {
+      "act": "Payment of Wages Act, 1936",
+      "section": "3",
+      "title": "Responsibility for Payment of Wages",
+      "meaning": "Every employer is responsible for payment of wages to persons employed by them on or before the wage period deadline.",
+      "punishment": "Fine up to Rs. 7,500 for first offence and Rs. 22,500 for subsequent offences",
+      "nature_of_offence": "Labour Offence",
+      "keywords": ["unpaid wages", "salary not paid", "withheld salary", "dues not paid"]
+    },
+    {
+      "act": "Sexual Harassment of Women at Workplace Act, 2013",
+      "section": "4",
+      "title": "Constitution of Internal Complaints Committee",
+      "meaning": "Every employer of a workplace must constitute an Internal Complaints Committee (ICC) to receive and redress complaints of sexual harassment.",
+      "punishment": "Fine up to Rs. 50,000 for non-constitution of ICC",
+      "nature_of_offence": "Labour/Civil",
+      "keywords": ["sexual harassment", "workplace harassment", "POSH", "inappropriate behavior at work", "ICC complaint"]
+    },
+    {
+      "act": "Employees Provident Funds Act, 1952",
+      "section": "14B",
+      "title": "Power to Recover Damages",
+      "meaning": "Where an employer makes default in payment of contributions, the Central PF Commissioner may levy damages.",
+      "punishment": "Damages up to 25% of amount due",
+      "nature_of_offence": "Labour Offence",
+      "keywords": ["PF not deposited", "provident fund", "EPF deduction", "PF dispute"]
+    },
+    {
+      "act": "Payment of Gratuity Act, 1972",
+      "section": "4",
+      "title": "Payment of Gratuity",
+      "meaning": "Gratuity is payable to an employee on termination of employment after 5 years of continuous service, at the rate of 15 days wages for each year of service.",
+      "punishment": "6 months to 2 years imprisonment for non-payment",
+      "nature_of_offence": "Labour Offence",
+      "keywords": ["gratuity not paid", "gratuity dispute", "service benefits", "retirement payment"]
+    },
+    {
+      "act": "Minimum Wages Act, 1948",
+      "section": "22",
+      "title": "Penalties for Offences",
+      "meaning": "Paying below minimum wages is punishable with imprisonment and fine.",
+      "punishment": "Up to 6 months imprisonment or Rs. 500 fine or both",
+      "nature_of_offence": "Cognizable Labour Offence",
+      "keywords": ["below minimum wage", "less than minimum salary", "underpayment"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Employment Contract / Appointment Letter", "type": "documentary", "importance": "critical"},
+    {"name": "Pay Slips / Salary Records", "type": "financial", "importance": "critical"},
+    {"name": "Termination Letter", "type": "documentary", "importance": "critical"},
+    {"name": "Bank Account Salary Credit Statements", "type": "financial", "importance": "high"},
+    {"name": "Attendance Records", "type": "documentary", "importance": "high"},
+    {"name": "PF Account Statement (UAN passbook)", "type": "official", "importance": "high"},
+    {"name": "Email Communications with HR / Employer", "type": "digital", "importance": "high"},
+    {"name": "Witnesses / Co-worker Statements", "type": "testimonial", "importance": "medium"},
+    {"name": "Performance Appraisal Records", "type": "documentary", "importance": "medium"},
+    {"name": "POSH Complaint Record (if harassment)", "type": "documentary", "importance": "high"}
+  ],
+  "questions": [
+    {"id": "lb_01", "text": "What is the nature of the labor dispute?", "type": "dropdown", "options": ["Wrongful Termination", "Unpaid Wages", "Workplace Sexual Harassment", "PF/ESI Dispute", "Gratuity Not Paid", "Contract Labour Issue", "Industrial Dispute", "Safety Violation", "Other"]},
+    {"id": "lb_02", "text": "What type of employment did/do you have?", "type": "multiple_choice", "options": ["Permanent/Regular", "Contract/Temporary", "Daily Wage", "Apprentice/Trainee", "Casual Labour"]},
+    {"id": "lb_03", "text": "How long were you employed with this employer?", "type": "multiple_choice", "options": ["Less than 1 year", "1-3 years", "3-5 years", "5-10 years", "More than 10 years"]},
+    {"id": "lb_04", "text": "Do you have written employment documents?", "type": "multiple_choice", "options": ["Yes, full documentation", "Partial documents", "Only offer letter", "No written documents"]},
+    {"id": "lb_05", "text": "Did you raise the grievance with HR or management?", "type": "multiple_choice", "options": ["Yes, formally in writing", "Yes, verbally", "No complaint made", "Complaint suppressed by employer"]},
+    {"id": "lb_06", "text": "What is the approximate amount in dispute (wages/dues)?", "type": "multiple_choice", "options": ["Below Rs. 50,000", "Rs. 50,000 - 5 lakh", "Rs. 5-25 lakh", "Above Rs. 25 lakh"]}
+  ],
+  "recommended_actions": [
+    "Send legal notice to employer demanding dues payment within 15 days",
+    "File complaint with Labour Commissioner / Assistant Labour Commissioner",
+    "File complaint with POSH Internal Committee or Local Complaints Committee",
+    "Approach EPF Regional Office for PF default complaint",
+    "File claim with Controlling Authority under Payment of Gratuity Act",
+    "File application before Labour Court / Industrial Tribunal for reinstatement",
+    "Approach National Human Rights Commission if employer violates fundamental rights"
+  ]
+}

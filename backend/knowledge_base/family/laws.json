@@ -1,0 +1,109 @@
+{
+  "category": "family",
+  "display_name": "Family Matters",
+  "subcategories": [
+    "Divorce / Separation",
+    "Child Custody",
+    "Maintenance / Alimony",
+    "Dowry Harassment",
+    "Domestic Violence",
+    "Adoption",
+    "Guardianship",
+    "Marriage Registration Dispute"
+  ],
+  "laws": [
+    {
+      "act": "Hindu Marriage Act, 1955",
+      "section": "13",
+      "title": "Divorce",
+      "meaning": "Either party to a marriage may present a petition to the district court for dissolution of their marriage on specified grounds including cruelty, adultery, desertion, conversion, mental disorder, etc.",
+      "punishment": null,
+      "nature_of_offence": "Civil (Matrimonial)",
+      "keywords": ["divorce", "separation", "marriage dissolved", "matrimonial dispute", "husband wife dispute"]
+    },
+    {
+      "act": "Hindu Marriage Act, 1955",
+      "section": "24",
+      "title": "Maintenance Pendente Lite",
+      "meaning": "Court may order either party to pay maintenance to the other during pendency of divorce proceedings.",
+      "punishment": null,
+      "nature_of_offence": "Civil (Matrimonial)",
+      "keywords": ["maintenance during divorce", "alimony", "interim maintenance", "support during proceedings"]
+    },
+    {
+      "act": "Code of Criminal Procedure, 1973",
+      "section": "125",
+      "title": "Order for Maintenance of Wives, Children and Parents",
+      "meaning": "A Magistrate may order a person to pay monthly maintenance to his wife, children (legitimate or illegitimate), and parents if they are unable to maintain themselves.",
+      "punishment": "Failure to pay may lead to imprisonment up to 1 month per breach",
+      "nature_of_offence": "Criminal/Maintenance",
+      "keywords": ["maintenance", "wife support", "child support", "monthly allowance", "financial support"]
+    },
+    {
+      "act": "Dowry Prohibition Act, 1961",
+      "section": "3",
+      "title": "Penalty for giving or taking Dowry",
+      "meaning": "Giving, taking or abetting giving or taking of dowry is prohibited and punishable.",
+      "punishment": "Minimum 5 years imprisonment and minimum Rs. 15,000 fine or value of dowry, whichever is higher",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["dowry", "dowry demand", "harassment for dowry", "dowry death"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "498A",
+      "title": "Cruelty by Husband or Relatives",
+      "meaning": "Whoever, being the husband or relative of husband of a woman, subjects her to cruelty shall be punished.",
+      "punishment": "Up to 3 years imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable, Non-compoundable",
+      "keywords": ["husband cruelty", "in-law harassment", "marital cruelty", "mental torture", "physical abuse by husband"]
+    },
+    {
+      "act": "Guardian and Wards Act, 1890",
+      "section": "17",
+      "title": "Matters to be Considered by Court in appointing Guardian",
+      "meaning": "Court must consider welfare of the minor child as the paramount consideration when appointing guardian.",
+      "punishment": null,
+      "nature_of_offence": "Civil (Family)",
+      "keywords": ["child custody", "guardian", "child welfare", "who keeps child", "parental rights"]
+    },
+    {
+      "act": "Protection of Women from Domestic Violence Act, 2005",
+      "section": "12",
+      "title": "Application to Magistrate",
+      "meaning": "An aggrieved person may present an application to the Magistrate for one or more reliefs under the Act.",
+      "punishment": "Breach of protection order: up to 1 year imprisonment or Rs. 20,000 fine or both",
+      "nature_of_offence": "Civil/Criminal remedy",
+      "keywords": ["domestic violence", "protection order", "wife beaten", "shelter home", "DV case"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Marriage Certificate / Marriage Registration", "type": "documentary", "importance": "critical"},
+    {"name": "Birth Certificate of Children", "type": "documentary", "importance": "critical"},
+    {"name": "Medical Reports (injuries from domestic violence)", "type": "documentary", "importance": "high"},
+    {"name": "Photographs of Injuries", "type": "documentary", "importance": "high"},
+    {"name": "WhatsApp/Message Records of Threats or Abuse", "type": "digital", "importance": "high"},
+    {"name": "Income/Salary Proof of Respondent", "type": "financial", "importance": "high"},
+    {"name": "Witnesses from Family / Neighbors", "type": "testimonial", "importance": "medium"},
+    {"name": "Dowry List / Receipts", "type": "documentary", "importance": "high"},
+    {"name": "Bank Statements", "type": "financial", "importance": "medium"},
+    {"name": "School Records of Children", "type": "documentary", "importance": "medium"}
+  ],
+  "questions": [
+    {"id": "fm_01", "text": "What is the primary family law issue?", "type": "dropdown", "options": ["Divorce/Separation", "Child Custody", "Maintenance/Alimony", "Dowry Harassment", "Domestic Violence", "Adoption", "Guardianship", "Other"]},
+    {"id": "fm_02", "text": "What is the religion of the parties?", "type": "multiple_choice", "options": ["Hindu", "Muslim", "Christian", "Parsi", "Special Marriage Act applies", "Other"]},
+    {"id": "fm_03", "text": "How long have the parties been married?", "type": "multiple_choice", "options": ["Less than 1 year", "1-3 years", "3-7 years", "More than 7 years"]},
+    {"id": "fm_04", "text": "Are children involved?", "type": "multiple_choice", "options": ["Yes, minor children", "Yes, adult children", "No children"]},
+    {"id": "fm_05", "text": "Is there physical violence involved?", "type": "multiple_choice", "options": ["Yes, ongoing", "Yes, past incidents", "No physical violence", "Emotional/financial abuse only"]},
+    {"id": "fm_06", "text": "Are the parties currently living together?", "type": "multiple_choice", "options": ["Yes", "Separated but same house", "Living separately", "Restraining order in place"]},
+    {"id": "fm_07", "text": "Has any complaint been registered with police?", "type": "multiple_choice", "options": ["Yes, FIR registered", "Yes, complaint given", "No complaint yet", "Police refused to act"]}
+  ],
+  "recommended_actions": [
+    "File complaint under Section 498A IPC and Domestic Violence Act if abuse involved",
+    "Apply for Protection Order under PWDVA 2005 for immediate safety",
+    "File maintenance petition under Section 125 CrPC at Family Court",
+    "Obtain interim custody order for children if in immediate risk",
+    "Approach One Stop Centre / Sakhi Centre for crisis support",
+    "File for divorce after mandatory mediation attempt",
+    "Document all incidents of violence with dates and photographs"
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Theft of Mobile Phone at Bus Stand",
+    "description": "On 15th June 2026, at approximately 9:30 AM, the complainant Rajan Kumar was standing at the Central Bus Stand, Kozhikode, Kerala, waiting for the bus to Thrissur. An unknown person approached from behind and snatched his Samsung Galaxy S23 mobile phone valued at Rs. 85,000 from his hand. The accused fled on foot before the complainant could react. Two other commuters witnessed the incident. CCTV cameras are present at the bus stand. The complainant has approached the police station but FIR has not yet been registered.",
+    "expected_category": "criminal",
+    "expected_subcategory": "Theft / Robbery / Dacoity"
+  },
+  {
+    "title": "Neighbour Encroachment on Agricultural Land",
+    "description": "The complainant Meenakshi Nair owns 35 cents of agricultural land in Survey No. 142/3 at Palakkad, Kerala, registered in her name since 1998 via registered sale deed. Her neighbour Suresh Pillai has constructed a compound wall approximately 3 feet inside her boundary, encroaching upon her land. The survey conducted in 2022 confirms this encroachment. The neighbour refuses to vacate the encroached land despite repeated requests. The original sale deed and survey sketch are available.",
+    "expected_category": "property",
+    "expected_subcategory": "Land Encroachment"
+  },
+  {
+    "title": "Husband Physical Abuse and Dowry Harassment",
+    "description": "The complainant Priya Sharma (27 years) has been married to Amit Sharma since 2022. Since the beginning of the marriage, her husband and in-laws have been demanding additional dowry of Rs. 5 lakhs. On multiple occasions, her husband has physically assaulted her, causing injuries to her arm and face. The latest assault occurred on 20th June 2026. She has medical reports from Kozhikode Medical College. She has two WhatsApp screenshots of threatening messages from her mother-in-law. She is currently staying at her parents' house in Kozhikode.",
+    "expected_category": "family",
+    "expected_subcategory": "Dowry Harassment"
+  },
+  {
+    "title": "Online UPI Fraud - Rs. 45,000 Lost",
+    "description": "The complainant received a phone call on 10th June 2026 from a person claiming to be an SBI Bank official. The caller said the complainant's KYC was expired and asked her to click a link sent via SMS to update it. After clicking the link and entering her UPI PIN, Rs. 45,000 was debited from her account in three transactions within minutes. The complainant has the transaction IDs, the mobile number from which the call was made (+91-9876543210), the SMS with the phishing link, and bank statement. She has not yet reported to cybercrime portal.",
+    "expected_category": "cyber",
+    "expected_subcategory": "Online Fraud / Phishing"
+  },
+  {
+    "title": "Salary Not Paid for 3 Months - IT Company",
+    "description": "The complainant Arun Menon worked as a software engineer at TechCorp Solutions Pvt. Ltd., Technopark, Thiruvananthapuram from January 2024. The company has not paid his salary for March, April, and May 2026, amounting to Rs. 1,35,000. The complainant has a formal employment contract, all pay slips until February 2026, and salary credit bank statements. He raised the complaint with HR via email on 1st June 2026 but received no response. The company has 45 employees and falls under the Payment of Wages Act.",
+    "expected_category": "labor",
+    "expected_subcategory": "Wage Theft / Non-Payment"
+  },
+  {
+    "title": "Defective Refrigerator - Company Refusing Replacement",
+    "description": "The complainant purchased a Samsung 350L refrigerator on 5th January 2026 from Vijay Sales, Ernakulam for Rs. 42,500 with a 1-year warranty. Within 3 months of purchase the compressor failed completely. The complainant contacted Samsung customer care on 10th April 2026 and submitted a service request (SR No. SAM789456). The company sent a technician who confirmed the compressor failure but the company is offering only repair instead of replacement. The complainant has the purchase bill, warranty card, and written rejection of replacement request from Samsung.",
+    "expected_category": "consumer",
+    "expected_subcategory": "Defective Product"
+  },
+  {
+    "title": "Government Official Demanding Bribe for Patta Transfer",
+    "description": "The complainant Krishnan Nambiar applied for Patta (land ownership certificate) transfer at the Taluk Office, Palakkad on 15th May 2026. The concerned Revenue Inspector Madhusudan Pillai (Employee ID: RI/PKD/045) demanded a bribe of Rs. 15,000 to process the application, which is a completely legal application with all documents in order. The complainant refused to pay and his application has been pending without action for over 45 days. The complainant has an audio recording of the bribe demand on his mobile phone. He has the application acknowledgment receipt.",
+    "expected_category": "administrative",
+    "expected_subcategory": "Corruption / Bribery"
+  }
+]

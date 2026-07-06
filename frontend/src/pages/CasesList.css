@@ -1,0 +1,62 @@
+.cases-list { display: flex; flex-direction: column; gap: var(--space-5); }
+
+.cases-list__toolbar {
+  display: flex; align-items: center;
+  justify-content: space-between; gap: var(--space-4); flex-wrap: wrap;
+}
+
+.cases-list__search {
+  position: relative; flex: 1; max-width: 380px;
+}
+.cases-list__search-icon {
+  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+  color: var(--text-muted); pointer-events: none;
+}
+.cases-list__search-input {
+  width: 100%; height: 38px;
+  padding: 0 var(--space-4) 0 38px;
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-md);
+  background: var(--surface-card);
+  color: var(--text-primary);
+  font-size: 14px;
+  outline: none;
+  transition: border-color var(--transition-fast);
+}
+.cases-list__search-input:focus { border-color: var(--color-primary-500); }
+
+.cases-table { width: 100%; border-collapse: collapse; }
+.cases-table th {
+  text-align: left; padding: var(--space-3) var(--space-4);
+  font-size: 12px; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.5px; color: var(--text-muted);
+  border-bottom: 1px solid var(--surface-border);
+  white-space: nowrap;
+}
+.cases-table td { padding: var(--space-3) var(--space-4); font-size: 14px; vertical-align: middle; }
+.cases-table__row { cursor: pointer; transition: background var(--transition-fast); }
+.cases-table__row:hover { background: var(--color-gray-50); }
+[data-theme="dark"] .cases-table__row:hover { background: var(--color-gray-100); }
+.cases-table__row:not(:last-child) td { border-bottom: 1px solid var(--surface-border); }
+
+.cases-table__id    { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); }
+.cases-table__title { font-weight: 500; max-width: 320px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cases-table__date  { color: var(--text-muted); white-space: nowrap; }
+.cases-table__unclassified { font-size: 12px; color: var(--text-muted); }
+
+.cases-table__actions { display: flex; align-items: center; gap: var(--space-1); }
+.cases-table__action-btn {
+  width: 30px; height: 30px;
+  border-radius: var(--radius-sm);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-muted);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.cases-table__action-btn:hover { background: var(--color-gray-100); color: var(--text-primary); }
+.cases-table__action-btn--danger:hover { background: var(--color-danger-bg); color: var(--color-danger); }
+
+.cases-list__footer {
+  padding: var(--space-3) var(--space-4);
+  font-size: 13px; color: var(--text-muted);
+  border-top: 1px solid var(--surface-border);
+}

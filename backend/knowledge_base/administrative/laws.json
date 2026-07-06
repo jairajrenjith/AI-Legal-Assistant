@@ -1,0 +1,88 @@
+{
+  "category": "administrative",
+  "display_name": "Administrative Complaints",
+  "subcategories": [
+    "Public Service Denial",
+    "Corruption / Bribery",
+    "Government Order Dispute",
+    "RTI Related",
+    "Police Misconduct",
+    "Election Complaint",
+    "Regulatory Violation",
+    "Public Grievance"
+  ],
+  "laws": [
+    {
+      "act": "Prevention of Corruption Act, 1988",
+      "section": "7",
+      "title": "Offence Relating to Public Servant being Bribed",
+      "meaning": "A public servant who obtains or accepts gratification other than legal remuneration as motive or reward commits an offence.",
+      "punishment": "3 to 7 years imprisonment with fine",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["bribery", "corrupt official", "demanded bribe", "bribe for service", "kickback"]
+    },
+    {
+      "act": "Right to Information Act, 2005",
+      "section": "19",
+      "title": "Appeal",
+      "meaning": "If information is not provided within 30 days or is refused, applicant can file first appeal and then second appeal to Central / State Information Commissioner.",
+      "punishment": "Rs. 250 per day penalty on PIO up to Rs. 25,000",
+      "nature_of_offence": "Administrative remedy",
+      "keywords": ["RTI denied", "information not provided", "RTI appeal", "public records denied"]
+    },
+    {
+      "act": "Constitution of India",
+      "section": "Article 226",
+      "title": "Writ Jurisdiction of High Court",
+      "meaning": "High Courts can issue writs including Mandamus (to compel public authority), Certiorari (to quash illegal orders), Prohibition, Habeas Corpus, and Quo Warranto.",
+      "punishment": null,
+      "nature_of_offence": "Constitutional Remedy",
+      "keywords": ["government not acting", "mandamus", "writ petition", "constitutional rights violated", "administrative inaction"]
+    },
+    {
+      "act": "Code of Criminal Procedure, 1973",
+      "section": "197",
+      "title": "Prosecution of Judges and Public Servants",
+      "meaning": "Prior government sanction is required before prosecuting a judge or public servant for acts done in discharge of official duty.",
+      "punishment": null,
+      "nature_of_offence": "Procedural",
+      "keywords": ["police misconduct", "government officer misconduct", "prosecution of official"]
+    },
+    {
+      "act": "Protection of Human Rights Act, 1993",
+      "section": "12",
+      "title": "Functions of the Commission",
+      "meaning": "NHRC can inquire into complaints of violations of human rights committed by state or its agents, including police.",
+      "punishment": null,
+      "nature_of_offence": "Human Rights Remedy",
+      "keywords": ["human rights violation", "NHRC complaint", "custodial violence", "police brutality", "fake encounter"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Written Complaint / Application Made to Authority", "type": "documentary", "importance": "critical"},
+    {"name": "Response or Rejection Letter from Authority", "type": "documentary", "importance": "high"},
+    {"name": "Audio / Video Recording of Bribe Demand", "type": "digital", "importance": "critical"},
+    {"name": "Witnesses to Corruption / Misconduct", "type": "testimonial", "importance": "high"},
+    {"name": "RTI Application and Acknowledgment", "type": "official", "importance": "high"},
+    {"name": "Official Documents / Orders Challenged", "type": "official", "importance": "high"},
+    {"name": "Photographs / Videos of Incident", "type": "digital", "importance": "high"},
+    {"name": "Newspaper Reports (if public record)", "type": "documentary", "importance": "low"}
+  ],
+  "questions": [
+    {"id": "ad_01", "text": "What type of administrative complaint is this?", "type": "dropdown", "options": ["Public Service Denied", "Bribery/Corruption", "Government Order Dispute", "RTI Related", "Police Misconduct", "Regulatory Violation", "Public Grievance", "Other"]},
+    {"id": "ad_02", "text": "Which government department / authority is involved?", "type": "text"},
+    {"id": "ad_03", "text": "Have you made a formal written complaint to the authority?", "type": "multiple_choice", "options": ["Yes, with acknowledgment", "Yes, without acknowledgment", "No formal complaint made"]},
+    {"id": "ad_04", "text": "What was the response from the authority?", "type": "multiple_choice", "options": ["Resolved satisfactorily", "Partial resolution", "No response within deadline", "Rejected without reason", "Still pending"]},
+    {"id": "ad_05", "text": "Have you filed an RTI to get relevant information?", "type": "multiple_choice", "options": ["Yes, filed and received info", "Yes, filed but denied", "No RTI filed", "Not applicable"]}
+  ],
+  "recommended_actions": [
+    "File formal complaint with designated grievance officer of the department",
+    "Lodge complaint on CPGRAMS (Centralized Public Grievance Redress) portal",
+    "File RTI application to obtain relevant government documents",
+    "Approach Lokayukta / Anti-Corruption Bureau with evidence of bribery",
+    "File complaint with Vigilance Department if public servant involved",
+    "Approach High Court with Writ of Mandamus if authority is not acting",
+    "File complaint with National Human Rights Commission for rights violations",
+    "Approach Election Commission of India for election-related complaints"
+  ]
+}

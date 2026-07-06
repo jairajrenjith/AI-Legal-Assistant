@@ -1,0 +1,107 @@
+{
+  "category": "cyber",
+  "display_name": "Cyber Complaints",
+  "subcategories": [
+    "Online Fraud / Phishing",
+    "Cyberbullying / Online Harassment",
+    "Data Theft / Hacking",
+    "Identity Theft",
+    "Morphed Images / Deep Fake",
+    "Ransomware Attack",
+    "Online Defamation",
+    "Social Media Abuse"
+  ],
+  "laws": [
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "66",
+      "title": "Computer Related Offences",
+      "meaning": "Whoever dishonestly or fraudulently does any act referred to in section 43 (unauthorized access/damage to computer) shall be punished.",
+      "punishment": "Up to 3 years imprisonment or Rs. 5 lakh fine or both",
+      "nature_of_offence": "Cognizable",
+      "keywords": ["hacking", "unauthorized access", "computer breach", "system compromised", "data stolen"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "66C",
+      "title": "Identity Theft",
+      "meaning": "Whoever, fraudulently or dishonestly makes use of the electronic signature, password or any other unique identification feature of any other person shall be punished.",
+      "punishment": "Up to 3 years imprisonment and Rs. 1 lakh fine",
+      "nature_of_offence": "Cognizable",
+      "keywords": ["identity theft", "account hacked", "someone using my account", "fake profile", "impersonation"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "66D",
+      "title": "Cheating by Personation using Computer",
+      "meaning": "Whoever cheats by personating another using any communication device or computer resource shall be punished.",
+      "punishment": "Up to 3 years imprisonment and Rs. 1 lakh fine",
+      "nature_of_offence": "Cognizable",
+      "keywords": ["online fraud", "cheated online", "fake identity online", "phishing", "scam call"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "66E",
+      "title": "Violation of Privacy",
+      "meaning": "Whoever intentionally captures, publishes or transmits the image of a private area without consent commits violation of privacy.",
+      "punishment": "Up to 3 years imprisonment or Rs. 2 lakh fine or both",
+      "nature_of_offence": "Cognizable",
+      "keywords": ["private photos shared", "intimate images", "voyeurism", "hidden camera", "revenge porn"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "67",
+      "title": "Publishing Obscene Material in Electronic Form",
+      "meaning": "Whoever publishes or transmits obscene material in electronic form shall be punished.",
+      "punishment": "First offence: up to 3 years and Rs. 5 lakh fine; Subsequent: up to 5 years and Rs. 10 lakh fine",
+      "nature_of_offence": "Cognizable, Non-bailable",
+      "keywords": ["obscene content", "pornography shared", "morphed images", "deepfake nude"]
+    },
+    {
+      "act": "Information Technology Act, 2000",
+      "section": "43",
+      "title": "Penalty for Damage to Computer System",
+      "meaning": "If any person without permission accesses or downloads or introduces virus or denies access to a computer, they shall be liable to pay damages up to Rs. 1 crore.",
+      "punishment": "Compensation up to Rs. 1 crore",
+      "nature_of_offence": "Civil IT remedy",
+      "keywords": ["ransomware", "virus attack", "computer damaged", "data encrypted", "systems down"]
+    },
+    {
+      "act": "Indian Penal Code, 1860",
+      "section": "499",
+      "title": "Defamation",
+      "meaning": "Whoever makes or publishes any imputation concerning any person intending to harm the reputation of such person commits defamation.",
+      "punishment": "Up to 2 years imprisonment or fine or both",
+      "nature_of_offence": "Non-cognizable, Bailable",
+      "keywords": ["online defamation", "false post", "reputation damage", "fake news about me", "character assassination"]
+    }
+  ],
+  "evidence_list": [
+    {"name": "Screenshots of Offensive / Fraudulent Content", "type": "digital", "importance": "critical"},
+    {"name": "Transaction Records / Bank Statements for Fraud", "type": "financial", "importance": "critical"},
+    {"name": "Email Headers / Phishing Email", "type": "digital", "importance": "high"},
+    {"name": "URLs / Social Media Post Links", "type": "digital", "importance": "high"},
+    {"name": "Device / IP Logs", "type": "technical", "importance": "high"},
+    {"name": "Mobile Number / Email ID of Accused", "type": "digital", "importance": "high"},
+    {"name": "Call / Message Records", "type": "digital", "importance": "medium"},
+    {"name": "Online Platform Complaint Reference Number", "type": "documentary", "importance": "medium"},
+    {"name": "Cybercrime Portal Complaint Acknowledgment", "type": "official", "importance": "medium"}
+  ],
+  "questions": [
+    {"id": "cy_01", "text": "What type of cyber incident occurred?", "type": "dropdown", "options": ["Online Fraud/Scam", "Hacking/Unauthorized Access", "Cyberbullying/Harassment", "Data Theft", "Identity Theft", "Morphed Images/Deepfake", "Ransomware Attack", "Online Defamation", "Other"]},
+    {"id": "cy_02", "text": "Through which platform did the incident occur?", "type": "multiple_choice", "options": ["WhatsApp", "Facebook/Instagram", "Email", "Website", "UPI/Banking App", "Phone Call/SMS", "Multiple Platforms", "Unknown"]},
+    {"id": "cy_03", "text": "What was the financial loss (if any)?", "type": "multiple_choice", "options": ["No financial loss", "Below Rs. 10,000", "Rs. 10,000 - 1 lakh", "Above Rs. 1 lakh"]},
+    {"id": "cy_04", "text": "Do you know the identity of the perpetrator?", "type": "multiple_choice", "options": ["Yes, known person", "Partial info (phone/email)", "Anonymous", "Suspected but uncertain"]},
+    {"id": "cy_05", "text": "Have you reported to the cybercrime portal (cybercrime.gov.in)?", "type": "multiple_choice", "options": ["Yes, complaint filed", "No, not yet", "Tried but failed"]},
+    {"id": "cy_06", "text": "Have you preserved screenshots / evidence?", "type": "multiple_choice", "options": ["Yes, preserved digitally", "Partially preserved", "No evidence preserved", "Evidence deleted by accused"]}
+  ],
+  "recommended_actions": [
+    "Report immediately at cybercrime.gov.in (National Cybercrime Reporting Portal)",
+    "File complaint at nearest Cyber Crime Police Station",
+    "Call Cyber Crime Helpline: 1930",
+    "Preserve all digital evidence: screenshots, emails, transaction records",
+    "Report fraudulent account/content directly to platform (Facebook, WhatsApp, etc.)",
+    "Contact bank immediately if financial fraud involved to freeze transaction",
+    "Apply for interim injunction from court to take down defamatory content"
+  ]
+}
